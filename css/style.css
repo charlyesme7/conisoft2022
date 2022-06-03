@@ -1440,6 +1440,14 @@ text-align: center;
 /*###########################################################*/
 
 /*##################VENUE####################################*/
+iframe{
+  width: 100%;
+}
+.direccion{
+  width: 35%;
+  margin-left: 30%;
+  margin-right: 30%;
+}  
 .background8{
   margin: 10%;
   text-align: center;
@@ -1449,35 +1457,22 @@ text-align: center;
   color: #000000;
   text-shadow: 0px 5px 8px #00000029;
 }
-.location{
-  margin-top: 5%;
-}
 .container{
   margin-top: 5%;
   display: flex;
-  justify-content: space-around;
-  margin-left: 10%;
-  margin-right: 10%;
+  justify-content: space-between;
 }
 .imglocation{
-  margin-top: 1%;
   width: 40%;
 }
-.direccion{
-  margin-left: 30%;
-  margin-right: 30%;
-}  
-.container h3{
+.textocode{
+  margin-top: 5%;
+  text-align: center;
   font: normal normal bold 20px/30px Caviar Dreams;
   color: #000000;
   text-shadow: 0px 5px 8px #00000029;
 }
 
-.container p{
-  font: normal normal bold 15px/30px Caviar Dreams;
-  color: #000000;
-  text-shadow: 0px 5px 8px #00000029;
-}
 /*######################################*/
 
 /*##################CODE####################*/
